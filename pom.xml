@@ -12,6 +12,7 @@
 		<module>guestbook2</module>
 		<module>emaillist1</module>
 		<module>guestbook1</module>
+		<module>jstel</module>
 	</modules>
 	
 	<build>
