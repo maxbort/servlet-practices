@@ -27,10 +27,7 @@ public class LifeCycleServlet extends HttpServlet {
 	}
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("doGet(...) called");
-		
 	}
-
-
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("doPost(...) called");
