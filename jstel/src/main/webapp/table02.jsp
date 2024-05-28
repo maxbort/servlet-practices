@@ -6,8 +6,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
+
 <title>Insert title here</title>
 </head>
+
+
 <body>
 	<c:set var="row" value="${param.r }" />
 	<c:if test="${empty row}">
