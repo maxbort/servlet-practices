@@ -37,7 +37,7 @@ public class GuestBookServlet extends HttpServlet {
 			GuestBookVo vo = new GuestBookVo();
 			vo.setName(name);
 			vo.setPassword(password);
-			vo.setContent(content);
+			vo.setContents(content);
 
 			new GuestBookDao().insert(vo);
 			response.sendRedirect(request.getContextPath() + "/gb");			
@@ -46,7 +46,7 @@ public class GuestBookServlet extends HttpServlet {
 				String no = request.getParameter("no");
 			   String password = request.getParameter("password");
 			   
-			   new GuestBookDao().deleteByNo(Long.parseLong(no),password);
+			   new GuestBookDao().deleteByNoAndPassword(Long.parseLong(no), password);
 			   
 			response.sendRedirect(request.getContextPath() + "/gb");			
 		} else if("deleteform".equals(action)) {

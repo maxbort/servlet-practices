@@ -4,7 +4,7 @@ public class GuestBookVo {
 	private Long no;
 	private String name;
 	private String password;
-	private String content;
+	private String contents;
 	private String datetime;
 	public Long getNo() {
 		return no;
@@ -24,11 +24,11 @@ public class GuestBookVo {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public String getContent() {
-		return content;
+	public String getContents() {
+		return contents;
 	}
-	public void setContent(String content) {
-		this.content = content;
+	public void setContents(String content) {
+		this.contents = content;
 	}
 	public String getDatetime() {
 		return datetime;

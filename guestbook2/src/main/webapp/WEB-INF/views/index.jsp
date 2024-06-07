@@ -37,7 +37,7 @@
 			<td><a href="<%=request.getContextPath() %>/gb?a=deleteform&no=<%=vo.getNo()%>">delete</a></td>
 		</tr>
 		<tr>
-		<td><%=vo.getContent() %></td>
+		<td><%=vo.getContents() %></td>
 		</tr>
 	</table>
 	<%
